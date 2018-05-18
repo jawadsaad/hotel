@@ -161,7 +161,7 @@ a {
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: rgba(220,221,222);
+    background-color: rgb(220,221,222);
     opacity: 0;
     display: flex;
     justify-content: center;
