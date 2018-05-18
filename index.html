@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Al Sayedah Zeinab Hotel</title>
+        <link href="resources/css/reset.css" type="text/css" rel="stylesheet" />
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <header id="home">
+            <!-- NAVBAR -->
+            <nav id="navbar" class="navbar navbar-main">
+                <a href="#home" id="logo" class="logo">AL SAYEDAH ZEINAB HOTEL</a>
+                <a href="javascript:void(0);" id="navlink-icon" class="navlink navlink-icon" onClick="showNav()">&#9776;</a>
+                <div class="navbar">
+                    <ul id="nav-items" class="nav-items">
+                        <li><a href="" class="navlink navlink-link">THE HOTEL</a></li>
+                        <li><a href="" class="navlink navlink-link">ROOMS &amp; SUITES</a></li>
+                        <li><a href="" class="navlink navlink-link">DINING</a></li>
+                        <li><a href="" class="navlink navlink-link">MEETINGS &amp; EVENTS</a></li>
+                        <li><a href="" class="navlink navlink-link">GALLERY</a></li>
+                        <li><a href="" class="navlink navlink-link">CONTACT</a></li>
+                    </ul>
+                    <div class="res-link"><a href="" class="navlink navlink-res">RESERVATIONS</a></div>
+                </div>
+            </nav>
+            
+             <!-- MOBILE NAV -->
+            <div id="mobile-nav-container" class="mobile-nav-container no-display">
+                <nav id="mobile-nav" class="mobile-nav">
+                    <ul>
+                        <li><a href="javascript:void(0);" id="close-mobile-nav" class="mobile-navlink mobile-navlink-link close-mobile-nav" onClick="closeNav()">&#128473;</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">THE HOTEL</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">ROOMS &amp; SUITES</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">DINING</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">MEETINGS &amp; EVENTS</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">GALLERY</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- WELCOME SLIDESHOW -->
+            <div id="welcome-slides-slideshow" class="welcome-slides-slideshow">
+                <div class="welcome-slides welcome-slide1 fade">
+                    <img class="slides-img" src="resources/images/presidential_bed1.jpg" />
+                    <div class="slide-text">
+                        <h2 class="h2-headings">STEP INTO LUXURY</h2>
+                        <h1 class="culture-headings">AL SAYEDAH ZEINAB HOTEL</h1>
+                    </div>
+                </div>
+                
+                <div class="welcome-slides welcome-slide2 fade">
+                    <img class="slides-img" src="resources/images/restaurant_landscape.jpg" />
+                </div>
+                
+                <div class="welcome-slides welcome-slide3 fade">
+                    <img class="slides-img" src="resources/images/garden_day.jpg" />
+                </div>
+                
+                <div class="welcome-slides welcome-slide4 fade">
+                    <img class="slides-img" src="resources/images/hotel_front_landscape.jpg" />
+                </div>
+<!--
+                
+                <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+-->
+            </div>  
+        </header>
+        
+        <!-- ROOMS -->
+        <section class="rooms container">
+            <h2 class="h2-headings">ELEGANTLY DESIGNED ROOMS</h2>
+            
+            <div class="inner-container">
+                <div class="room-types side-nav">
+                    <ul>
+                        <li><a href="javascript:void(0);" onclick="toggleRoomDisplay(0)" class="side-link room-link">STANDARD</a></li>
+                        <li><a href="javascript:void(0);" onclick="toggleRoomDisplay(1)" class="side-link room-link">JUNIOR</a></li>
+                        <li><a href="javascript:void(0);" onclick="toggleRoomDisplay(2)" class="side-link room-link">PRESIDENTIAL</a></li>
+                    </ul>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="standard-rooms" class="room-slides">
+                        <div class="standard-room-slides fade">
+                            <img class="slides-img" src="resources/images/standard_room.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h2 class="h2-headings">$120 PER NIGHT (SINGLE) $140 PER NIGHT (TWIN)</h2>
+                                <h1 class="culture-headings">STANDARD TWIN ROOM</h1>
+                            </div>
+                        </div>
+                        
+<!--
+                        <a class="prev prev-next" onclick="plusSlides(-1,1)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,1)">&#10095;</a>
+-->
+                    </div>
+                    
+                    <div id="junior-suites" class="room-slides">
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/junior_suite_lounge.jpg" />
+                            <div class="slide-text side-slide-text">
+                                <h2 class="h2-headings">$300 PER NIGHT</h2>
+                                <h1 class="culture-headings">JUNIOR SUITE</h1>
+                            </div>
+                        </div>
+                        
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/junior_suite_bedroom.gif" />
+                            <div class="slide-text side-slide-text">
+                                <h2 class="h2-headings">$300 PER NIGHT</h2>
+                                <h1 class="culture-headings">JUNIOR SUITE</h1>
+                            </div>
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,2)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,2)">&#10095;</a>
+                    </div>
+                    
+                    <div id="presidential-suites" class="room-slides">
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/presidential_lounge.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h2 class="h2-headings">$600 PER NIGHT</h2>
+                                <h1 class="culture-headings">PRESIDENTIAL SUITE</h1>
+                            </div>
+                        </div>
+                        
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/presidential_bed1.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h2 class="h2-headings">$600 PER NIGHT</h2>
+                                <h1 class="culture-headings">PRESIDENTIAL SUITE</h1>
+                            </div>
+                        </div>
+                        
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/presidential_bed3.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h2 class="h2-headings">$600 PER NIGHT</h2>
+                                <h1 class="culture-headings">PRESIDENTIAL SUITE</h1>
+                            </div>
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,3)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,3)">&#10095;</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- DINING & RECREATION -->
+        <section class="dining container">
+            <h2 class="h2-headings">DINING &amp; RECREATION</h2>
+            
+            <div class="inner-container">
+                <div class="lounge-yamama-shebstan">
+                    <div class="img-container lounge">
+                        <a href=""><div class="rest-name"><h2 class="h2-headings">THE LOUNGE</h2></div></a>
+                    </div>
+                    
+                    <div class="yamama-shebstan">
+                        <div class="img-container yamama">
+                            <a href=""><div class="rest-name"><h2 class="h2-headings">YAMAMA</h2></div></a>
+                        </div>
+                        
+                        <div class="img-container shebstan">
+                            <a href=""><div class="rest-name"><h2 class="h2-headings">SHEBSTAN</h2></div></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="garden-fresh-dewaniya">
+                    <div class="garden-fresh">
+                        <div class="img-container garden">
+                            <a href=""><div class="rest-name"><h2 class="h2-headings">THE GARDEN</h2></div></a>
+                        </div>
+                        
+                        <div class="img-container fresh">
+                            <a href=""><div class="rest-name"><h2 class="h2-headings">FRESH DELIGHTS</h2></div></a>
+                        </div>
+                    </div>
+                    
+                    <div class="dewaniya-cont">
+                        <div class="img-container dewaniya">
+                            <a href=""><div class="rest-name"><h2 class="h2-headings">AL DIWANIYA</h2></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FOR ANY OCCASION - EVENT ROOMS -->
+        <section class="events container">
+            <h2 class="h2-headings">FOR ANY OCCASION</h2>
+            
+            <div class="inner-container">
+                <div class="room-types side-nav">
+                    <ul>
+                        <li><a href="javascript:void(0);" onclick="toggleEventsDisplay(0)" class="side-link event-link">BUSINESS</a></li>
+                        <li><a href="javascript:void(0);" onclick="toggleEventsDisplay(1)" class="side-link event-link">PRIVATE GATHERINGS</a></li>
+                        <li><a href="javascript:void(0);" onclick="toggleEventsDisplay(2)" class="side-link event-link">WEDDINGS</a></li>
+                    </ul>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="business" class="room-slides">
+                        <div class="business-slides fade">
+                            <img class="slides-img" src="resources/images/conference1.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h1 class="culture-headings occasions">CONFERENCES &amp; SEMINARS</h1>
+                            </div>
+                        </div>
+                        
+                        <div class="business-slides fade">
+                            <img class="slides-img" src="resources/images/Meeting1-zeinab.jpg" />
+                            <div class="slide-text side-slide-text">
+                                <h1 class="culture-headings occasions">CONFERENCES &amp; SEMINARS</h1>
+                            </div>
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,4)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,4)">&#10095;</a>
+                    </div>
+                    
+                    <div id="private-dining" class="room-slides">
+                        <div class="private-dining-slides fade">
+                            <img class="slides-img" src="resources/images/conference_room1.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h1 class="culture-headings occasions">DINNERS &amp; PARTIES</h1>
+                            </div>
+                        </div>
+                        
+                        <div class="private-dining-slides fade">
+                            <img class="slides-img" src="resources/images/privatedining.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h1 class="culture-headings occasions">DINNERS &amp; PARTIES</h1>
+                            </div>
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,5)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,5)">&#10095;</a>
+                    </div>
+                    
+                    <div id="weddings" class="room-slides">
+                        <div class="wedding-slides fade">
+                            <img class="slides-img" src="resources/images/wedding2.JPG" />
+                            <div class="slide-text side-slide-text">
+                                <h1 class="culture-headings">WEDDINGS</h1>
+                            </div>
+                        </div>
+                        
+<!--
+                        <a class="prev prev-next" onclick="plusSlides(-1,6)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,6)">&#10095;</a>
+-->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- LOCAL CULTURE & TOURISM -->
+        <section class="dining culture container">
+            <h2 class="h2-headings">LOCAL CULTURE &amp; TOURISM</h2>
+            
+            <div class="inner-container">
+                <div class="rooms-slideshow-container">
+                    
+                    <div class="culture-slides fade">
+                        <div class="culture-slides-cont">
+                            <div class="room-types side-nav">
+                                <h2 class="h2-headings cul">RELIGIOUS TOURISM</h2>
+                                <h1 class="culture-headings">AL SAYEDAH ZEINAB SHRINE</h1>
+                                
+                                <a class="site-buttons" href="">FIND OUT MORE</a>
+                            </div>
+                            
+                            <div class="culture-img shrine">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="culture-slides fade">
+                        <div class="culture-slides-cont">
+                            <div class="room-types side-nav">
+                                <h2 class="h2-headings cul">DISCOVER THE HISTORY OF SYRIA</h2>
+                                <h1 class="culture-headings">THE MUSEUMS</h1>
+                                
+                                <a class="site-buttons" href="">FIND OUT MORE</a>
+                            </div>
+                            
+                            <div class="culture-img museum">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="culture-slides fade">
+                        <div class="culture-slides-cont">
+                            <div class="room-types side-nav">
+                                <h2 class="h2-headings cul">EXPLORE</h2>
+                                <h1 class="culture-headings">THE ANCIENT CITY OF DAMASCUS</h1>
+                                
+                                <a class="site-buttons" href="">FIND OUT MORE</a>
+                            </div>
+                            
+                            <div class="culture-img ancient-city">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="culture-slides fade">
+                        <div class="culture-slides-cont">
+                            <div class="room-types side-nav">
+                                <h2 class="h2-headings cul">BUSY MIDNIGHTS</h2>
+                                <h1 class="culture-headings">DAMASCUS STYLE</h1>
+                                
+                                <a class="site-buttons" href="">FIND OUT MORE</a>
+                            </div>
+                            
+                            <div class="culture-img midnights">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="culture-slides fade">
+                        <div class="culture-slides-cont">
+                            <div class="room-types side-nav">
+                                <h2 class="h2-headings cul">YAMAMA</h2>
+                                <h1 class="culture-headings">A BREAKFAST BUFFET LIKE NO OTHER</h1>
+                                
+                                <a class="site-buttons" href="">FIND OUT MORE</a>
+                            </div>
+                            
+                            <div class="culture-img yamama-buffet">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="culture-slides fade">
+                        <div class="culture-slides-cont">
+                            <div class="room-types side-nav">
+                                <h2 class="h2-headings cul">RELAX</h2>
+                                <h1 class="culture-headings">THE GARDEN</h1>
+                                
+                                <a class="site-buttons" href="">FIND OUT MORE</a>
+                            </div>
+                            
+                            <div class="culture-img the-garden">
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a class="prev prev-next" onclick="plusSlides(-1,7)">&#10094;</a>
+                    <a class="next prev-next" onclick="plusSlides(1,7)">&#10095;</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <address>Al Sayedah Zeinab Hotel<br/>P.O. Box 684<br/>Damascus<br/>Syria</address>
+                
+                <span><strong>Tel: </strong>+963 11 6470140 / 6470139</span>
+                <span><strong>Fax: </strong>+963 11 6470131</span>
+                <br/><br/>
+                <span>&copy; Al Sayedah Zeinab Hotel 2018</span>
+            </div>
+        </footer>
+        
+        <script src="resources/js/main.js"></script>
+    </body>
+</html>
