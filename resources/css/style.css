@@ -811,3 +811,81 @@ span {
 span strong {
     font-weight: 700;
 }
+
+/*
+
+    COMMON TO ALL SUB-SECTIONS OF WEBSITE
+
+*/
+
+.page-cover-image {
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-cover-image .h2-headings {
+    color: rgb(212,175,55);
+/*    margin-left: 1.5rem;*/
+    padding: 0;
+    font-size: 1rem;
+}
+
+.page-cover-image .culture-headings {
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 909px) {
+    .page-cover-image .h2-headings {
+        font-size: 2rem;
+    }
+    
+    .page-cover-image .culture-headings {
+        font-size: 4rem;
+    }
+}
+
+/*
+
+    THE HOTEL - SITE
+
+*/
+
+.hotel-facade {
+    background-image: url(../images/hotel_front_day_edit.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 45rem;
+}
+
+.about {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-info {
+    margin: 0.5rem;
+    width: 100%;
+}
+
+.hotel-info p {
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 909px) {
+    .about {
+        flex-direction: row;
+    }
+    
+    .hotel-info {
+        width: 50%;
+    }
+}
