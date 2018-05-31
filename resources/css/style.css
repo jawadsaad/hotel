@@ -831,13 +831,13 @@ span strong {
     color: rgb(212,175,55);
 /*    margin-left: 1.5rem;*/
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .page-cover-image .culture-headings {
     margin-top: 2rem;
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 0;
 }
 
@@ -862,7 +862,6 @@ span strong {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 45rem;
 }
 
 .about {
@@ -887,5 +886,11 @@ span strong {
     
     .hotel-info {
         width: 50%;
+    }
+}
+
+@media screen and (min-width: 1063px) {
+    .hotel-facade {
+        height: 40rem;
     }
 }
