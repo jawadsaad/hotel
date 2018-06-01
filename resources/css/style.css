@@ -979,3 +979,24 @@ span strong {
         width: 50%;
     }
 }
+
+/*
+
+    DINING - SITE
+
+*/
+
+.dining-cover {
+    background-image: url(../images/buffet_lunch2.jpg);
+    background-position: center;
+    padding-top: 4rem;
+}
+
+.hotel-info .p-info {
+    font-size: 1.3rem;
+    color: #6D6F71;
+}
+
+.lounge-rest-slides, .yamama-rest-slides, .shebstan-rest-slides, .garden-rest-slides, .fresh-rest-slides {
+    display: none;
+}
