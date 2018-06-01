@@ -1,26 +1,3 @@
-var mobileNav = document.getElementById('mobile-nav-container');
-var icon = document.getElementById('navlink-icon');
-
-function showNav() {
-    icon.classList.add('hide-navlink-icon');
-    mobileNav.classList.remove("no-display");
-    setTimeout(display, 10);
-    
-    function display() {
-        mobileNav.classList.add("display-mobile-nav");
-    }
-}
-
-function closeNav() {
-    icon.classList.remove('hide-navlink-icon');
-    mobileNav.classList.remove('display-mobile-nav');
-    setTimeout(noDisplay, 500);
-    
-    function noDisplay() {
-        mobileNav.classList.add('no-display');
-    }
-}
-
 var slideIndex = [1,1,1,1,1,1,1,1];
 var slideId = ["welcome-slides", "standard-room-slides", "junior-suite-slides", "presidential-suite-slides", "business-slides", "private-dining-slides", "wedding-slides", "culture-slides"];
 showSlides(1,0);
