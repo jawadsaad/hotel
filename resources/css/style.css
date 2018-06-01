@@ -409,7 +409,7 @@ a {
 .room-slides {
     position: relative;
     margin: auto;
-    display: none;
+/*     display: none; */
 }
 
 .prev-next {
@@ -819,12 +819,15 @@ span strong {
 */
 
 .page-cover-image {
-    height: 30rem;
+    height: 26rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .page-cover-image .h2-headings {
@@ -860,9 +863,6 @@ span strong {
 
 .hotel-facade {
     background-image: url(../images/hotel_front_day_edit.jpg);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
 }
 
 .about {
@@ -893,5 +893,62 @@ span strong {
 @media screen and (min-width: 1063px) {
     .hotel-facade {
         height: 40rem;
+    }
+}
+
+/*
+
+    ROOMS AND SUITES - SITE
+
+*/
+
+.rooms-and-suites {
+    background-image: url(../images/presidential_lounge_landscape.jpg);
+    background-position: center;
+    padding-top: 4rem;
+}
+
+.rooms-site {
+    margin-bottom: 3rem;
+}
+
+.rooms-site .h2-headings {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.room-facilities {
+    width: 100%;
+    background-color: rgb(212,175,55);
+    margin: 3rem 0;
+}
+
+.facilities-list {
+    margin: 0 2rem;
+}
+
+.facility {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    color: #333;
+    display: flex;
+}
+
+.facility div {
+    margin-right: 1.5rem;
+}
+
+.fas {
+/*    padding-right: 1rem;*/
+}
+
+@media screen and (min-width: 992px) {
+    .facilities-list {
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .facility {
+        width: 50%;
     }
 }
