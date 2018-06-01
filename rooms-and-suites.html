@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Al Sayedah Zeinab Hotel</title>
+        <link href="resources/css/reset.css" type="text/css" rel="stylesheet" />
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <header id="home">
+            <!-- NAVBAR -->
+            <nav id="navbar" class="navbar navbar-main">
+                <a href="./index.html" id="logo" class="logo">AL SAYEDAH ZEINAB HOTEL</a>
+                <a href="javascript:void(0);" id="navlink-icon" class="navlink navlink-icon" onClick="showNav()">&#9776;</a>
+                <div class="navbar">
+                    <ul id="nav-items" class="nav-items">
+                        <li><a href="./the-hotel.html" class="navlink navlink-link">THE HOTEL</a></li>
+                        <li><a href="" class="navlink navlink-link">ROOMS &amp; SUITES</a></li>
+                        <li><a href="" class="navlink navlink-link">DINING</a></li>
+                        <li><a href="" class="navlink navlink-link">MEETINGS &amp; EVENTS</a></li>
+                        <li><a href="" class="navlink navlink-link">GALLERY</a></li>
+                        <li><a href="" class="navlink navlink-link">CONTACT</a></li>
+                    </ul>
+                    <div class="res-link"><a href="" class="navlink navlink-res">RESERVATIONS</a></div>
+                </div>
+            </nav>
+            
+             <!-- MOBILE NAV -->
+            <div id="mobile-nav-container" class="mobile-nav-container no-display">
+                <nav id="mobile-nav" class="mobile-nav">
+                    <ul>
+                        <li><a href="javascript:void(0);" id="close-mobile-nav" class="mobile-navlink mobile-navlink-link close-mobile-nav" onClick="closeNav()">&#128473;</a></li>
+                        <li><a href="./the-hotel.html" class="mobile-navlink mobile-navlink-link">THE HOTEL</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">ROOMS &amp; SUITES</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">DINING</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">MEETINGS &amp; EVENTS</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">GALLERY</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div id="rooms-and-suites" class="page-cover-image rooms-and-suites">
+                <h2 class="h2-headings">STAY WITH US</h2>
+                <h1 class="culture-headings">EXPERIENCE IS IN THE DETAIL</h1>
+            </div>
+        </header>
+        
+        <section id="rooms-suites" class="rooms-suites container">
+            <h2 class="h2-headings">ELEGANTLY DESIGNED ROOMS</h2>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">$120 PER NIGHT (SINGLE) $140 PER NIGHT (TWIN / QUEEN)</h2>
+                    <h2 class="h2-info">STANDARD ROOM</h2>
+                    
+                    <p class="p-info">Nice and roomy, we have 125 single and twin rooms and 25 queen bed rooms. All contain a coffee table with armchairs, desk with practical workspace and plenty of wardrobe space.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="standard" class="room-slides">
+                        <div class="standard-room-slides fade">
+                            <img class="slides-img" src="resources/images/standard_room.JPG" />
+                        </div>
+                        
+                        <div class="standard-room-slides fade">
+                            <img class="slides-img" src="resources/images/queen.jpg" />
+                        </div>
+                        
+                        <div class="standard-room-slides fade">
+                            <img class="slides-img" src="resources/images/bathroom.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,0)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,0)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="room-facilities">
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-lock"></i></div><div>SAFETY DEPOSIT BOX</div></li>
+                    <li class="facility"><div><i class="fas fa-dice-one"></i></div><div>MINI BAR</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-snowflake"></i></div><div>PRIVATE AIR CONDITIONING</div></li>
+                    <li class="facility"><div><i class="fas fa-tv"></i></div><div>SATELLITE TELEVISION</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-phone"></i></div><div>NATIONAL AND INTERNATIONAL DIRECT DIAL TELEPHONE</div></li>
+                    <li class="facility"><div><i class="fas fa-bullhorn"></i></div><div>HAIR DRYER</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-wifi"></i></div><div>WIFI</div></li>
+                    <li class="facility"><div><i class="fas fa-coffee"></i></div><div>TEA &amp; COFFEE FACILITIES</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-shower"></i></div><div>SHOWER</div></li>
+                    <li class="facility"><div><i class="fas fa-stroopwafel"></i></div><div>LAUNDRY SERVICES</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-clock"></i></div><div>24 HOUR ROOM SERVICE</div></li>
+                </ul>
+            </div>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">$300 PER NIGHT</h2>
+                    <h2 class="h2-info">JUNIOR SUITE</h2>
+                    
+                    <p class="p-info">Essentially studios, we have 5 stylish Junior Suites with queen size beds and large living areas, making you feel home away from home. There is generous wardrobe space and a work desk. Comfortable and practical.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="junior" class="room-slides">
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/junior_suite_lounge.jpg" />
+                        </div>
+                        
+<!--
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/junior_suite_bedroom.gif" />
+                        </div>
+-->
+                        
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/junior_suite_bedroom2.jpg" />
+                        </div>
+                        
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/junior_suite_safe.jpg" />
+                        </div>
+                        
+                        <div class="junior-suite-slides fade">
+                            <img class="slides-img" src="resources/images/bathroom.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,1)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="room-facilities">
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-lock"></i></div><div>SAFETY DEPOSIT BOX</div></li>
+                    <li class="facility"><div><i class="fas fa-dice-one"></i></div><div>MINI BAR</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-snowflake"></i></div><div>PRIVATE AIR CONDITIONING</div></li>
+                    <li class="facility"><div><i class="fas fa-tv"></i></div><div>SATELLITE TELEVISION</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-phone"></i></div><div>NATIONAL AND INTERNATIONAL DIRECT DIAL TELEPHONE</div></li>
+                    <li class="facility"><div><i class="fas fa-bullhorn"></i></div><div>HAIR DRYER</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-wifi"></i></div><div>WIFI</div></li>
+                    <li class="facility"><div><i class="fas fa-coffee"></i></div><div>TEA &amp; COFFEE FACILITIES</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-shower"></i></div><div>SHOWER</div></li>
+                    <li class="facility"><div><i class="fas fa-stroopwafel"></i></div><div>LAUNDRY SERVICES</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-bed"></i></div><div>QUEEN-SIZE BED</div></li>
+                    <li class="facility"><div><i class="fas fa-couch"></i></div><div>LIVING ROOM</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-clipboard-check"></i></div><div>PRIORITY FOR LATE CHECKOUT</div></li>
+                    <li class="facility"><div><i class="fas fa-clock"></i></div><div>24 HOUR ROOM SERVICE</div></li>
+                </ul>
+            </div>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">$600 PER NIGHT</h2>
+                    <h2 class="h2-info">PRESIDENTIAL SUITE</h2>
+                    
+                    <p class="p-info">A two-bedroom suite with floor-to-ceiling windows and stunning views of the Al Sayedah Zeinab Shrine. An open plan double reception area and dining room, queen-size beds, extensive wardrobe space and a fully dedicated room service team, the Presidential Suite is specially designed for the business traveller.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="presidential-suites" class="room-slides">
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/presidential_lounge.JPG" />
+                        </div>
+                        
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/presidential_bed1.JPG" />
+                        </div>
+                        
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/presidential_bed3.JPG" />
+                        </div>
+                        
+                        <div class="presidential-suite-slides fade">
+                            <img class="slides-img" src="resources/images/bathroom.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,2)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,2)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="room-facilities">
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-lock"></i></div><div>SAFETY DEPOSIT BOX</div></li>
+                    <li class="facility"><div><i class="fas fa-dice-one"></i></div><div>MINI BAR</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-snowflake"></i></div><div>PRIVATE AIR CONDITIONING</div></li>
+                    <li class="facility"><div><i class="fas fa-tv"></i></div><div>SATELLITE TELEVISION</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-phone"></i></div><div>NATIONAL AND INTERNATIONAL DIRECT DIAL TELEPHONE</div></li>
+                    <li class="facility"><div><i class="fas fa-bullhorn"></i></div><div>HAIR DRYER</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-wifi"></i></div><div>WIFI</div></li>
+                    <li class="facility"><div><i class="fas fa-coffee"></i></div><div>TEA &amp; COFFEE FACILITIES</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-shower"></i></div><div>SHOWER</div></li>
+                    <li class="facility"><div><i class="fas fa-stroopwafel"></i></div><div>LAUNDRY SERVICES</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-bed"></i></div><div>TWO QUEEN-SIZE BEDROOMS</div></li>
+                    <li class="facility"><div><i class="fas fa-couch"></i></div><div>OPEN PLAN DOUBLE RECEPTION &amp; DINING AREA</div></li>
+                </ul>
+                <ul class="facilities-list">
+                    <li class="facility"><div><i class="fas fa-clipboard-check"></i></div><div>PRIORITY FOR LATE CHECKOUT</div></li>
+                    <li class="facility"><div><i class="fas fa-clock"></i></div><div>24 HOUR ROOM SERVICE</div></li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <address>Al Sayedah Zeinab Hotel<br/>P.O. Box 684<br/>Damascus<br/>Syria</address>
+                
+                <span><strong>Tel: </strong>+963 11 6470140 / 6470139</span>
+                <span><strong>Fax: </strong>+963 11 6470131</span>
+                <br/><br/>
+                <span>&copy; Al Sayedah Zeinab Hotel 2018</span>
+            </div>
+        </footer>
+        
+        <script src="resources/js/navbar.js"></script>
+        <script src="resources/js/rooms.js"></script>
+    </body>
+</html>
