@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Hotel | Al Sayedah Zeinab Hotel</title>
+        <link href="resources/css/reset.css" type="text/css" rel="stylesheet" />
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <header id="home">
+            <!-- NAVBAR -->
+            <nav id="navbar" class="navbar navbar-main">
+                <a href="./index.html" id="logo" class="logo">AL SAYEDAH ZEINAB HOTEL</a>
+                <a href="javascript:void(0);" id="navlink-icon" class="navlink navlink-icon" onClick="showNav()">&#9776;</a>
+                <div class="navbar">
+                    <ul id="nav-items" class="nav-items">
+                        <li><a href="./the-hotel.html" class="navlink navlink-link">THE HOTEL</a></li>
+                        <li><a href="./rooms-and-suites.html" class="navlink navlink-link">ROOMS &amp; SUITES</a></li>
+                        <li><a href="./dining.html" class="navlink navlink-link">DINING</a></li>
+                        <li><a href="" class="navlink navlink-link">MEETINGS &amp; EVENTS</a></li>
+                        <li><a href="" class="navlink navlink-link">GALLERY</a></li>
+                        <li><a href="" class="navlink navlink-link">CONTACT</a></li>
+                    </ul>
+                    <div class="res-link"><a href="" class="navlink navlink-res">RESERVATIONS</a></div>
+                </div>
+            </nav>
+            
+             <!-- MOBILE NAV -->
+            <div id="mobile-nav-container" class="mobile-nav-container no-display">
+                <nav id="mobile-nav" class="mobile-nav">
+                    <ul>
+                        <li><a href="javascript:void(0);" id="close-mobile-nav" class="mobile-navlink mobile-navlink-link close-mobile-nav" onClick="closeNav()">&#128473;</a></li>
+                        <li><a href="./the-hotel.html" class="mobile-navlink mobile-navlink-link">THE HOTEL</a></li>
+                        <li><a href="./rooms-and-suites.html" class="mobile-navlink mobile-navlink-link">ROOMS &amp; SUITES</a></li>
+                        <li><a href="./dining.html" class="mobile-navlink mobile-navlink-link">DINING</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">MEETINGS &amp; EVENTS</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">GALLERY</a></li>
+                        <li><a href="" class="mobile-navlink mobile-navlink-link">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div id="dining-cover" class="page-cover-image dining-cover">
+                <h2 class="h2-headings">EAT &amp; DRINK</h2>
+                <h1 class="culture-headings">WALL TO WALL DINING</h1>
+            </div>
+        </header>
+        
+        <section id="about-dining" class="about container">
+            <div class="hotel-info">
+                <p class="p-info">From stunning buffet dining to comforting local food or shisha and fresh juice cocktails in The Garden to coffee on the couch, whatever your fancy, Al Sayedah Zeinab Hotel has a suitable spot. Its location close to the center of Damascus makes it a perfect destination for meetings, conferences, working lunches, weekend brunches, special dinners and bespoke private dining events.</p>
+            </div>
+            
+            <div class="hotel-info">
+                <p class="p-info">Guests staying with us at the hotel enjoy a free daily breakfast buffet at Yamama Restaurant. Indulge in our wonderful selection of home-made pastries and sandwiches, cereals, eggs, cheese, labneh, fresh fruit and much more. Complimentary tea, coffee and juices available as well.</p>
+            </div>
+        </section>
+        
+        <section id="restaurants" class="restaurants container">
+            <h2 class="h2-headings">DINING &amp; RECREATION</h2>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">RELAX AT</h2>
+                    <h2 class="h2-info">THE LOUNGE</h2>
+                    
+                    <p class="p-info">The perfect place to relax in an Oriental atmosphere, offering hot and cold beverages in addition to light snacks.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="lounge-rest" class="room-slides">
+                        <div class="lounge-rest-slides fade">
+                            <img class="slides-img" src="resources/images/lobby_landscape.jpg" />
+                        </div>
+                        
+                        <div class="lounge-rest-slides fade">
+                            <img class="slides-img" src="resources/images/lounge_large_edit2.jpg" />
+                        </div>
+                        
+                        <div class="lounge-rest-slides fade">
+                            <img class="slides-img" src="resources/images/shawarma1.jpg" />
+                        </div>
+                        
+                        <div class="lounge-rest-slides fade">
+                            <img class="slides-img" src="resources/images/tea.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,0)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,0)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">GLORIOUS BREAKFAST BUFFETS AT</h2>
+                    <h2 class="h2-info">YAMAMA</h2>
+                    
+                    <p class="p-info">Every morning, Yamama becomes a buzzing social hotspot with our fantastic breakfast buffet. Find everything from traditional egg breakfasts to continental pastries and cereals. For the remainder of the day, enjoy our selection of Oriental and International &agrave; la carte menus.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="yamama-rest" class="room-slides">
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/restaurant_landscape.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/yamama_buffet_edit.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/yamama_buffet2_edit.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/yamama_buffet3_edit.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/buffet_lasagne.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/buffet_pastries.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/buffet_tea_coffee.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/buffet_dessert.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/buffet_dessert2.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/buffet_fruit.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/biryani.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/mezze_edit.jpg" />
+                        </div>
+                        
+                        <div class="yamama-rest-slides fade">
+                            <img class="slides-img" src="resources/images/mix-grill.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,1)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">IRANIAN CUISINE AT</h2>
+                    <h2 class="h2-info">SHEBSTAN</h2>
+                    
+                    <p class="p-info">Syria's first Iranian restaurant distinguished by it's typical Iranian food, prepared by specialised Iranian chefs. Fresh Iranian bread baked live in front of you.</p>
+                    
+                    <p class="p-info">*Unfortunately, due to the ongoing conflict in Syria, Shebstan is currently serving the same menu as Yamama.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="shebstan-rest" class="room-slides">
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/shebstan_landscape.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/shebstan_people.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/iran-kebab1.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/iran-food1.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/taboon.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/iran-bread1.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/biryani.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/mezze_edit.jpg" />
+                        </div>
+                        
+                        <div class="shebstan-rest-slides fade">
+                            <img class="slides-img" src="resources/images/mix-grill.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,2)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,2)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">TAKE IN THE SCENERY AT</h2>
+                    <h2 class="h2-info">THE GARDEN</h2>
+                    
+                    <p class="p-info">Provides you with a very comfortable atmosphere and an outside relaxing evening in our garden on the Mezzanine floor, surrounded by beautiful, colourful flowers. Come along for lunch, dinner or just some light-snacking and enjoy a shisha pipe with your friends and family.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="garden-rest" class="room-slides">
+                        <div class="garden-rest-slides fade">
+                            <img class="slides-img" src="resources/images/garden_2_landscape2.jpg" />
+                        </div>
+                        
+                        <div class="garden-rest-slides fade">
+                            <img class="slides-img" src="resources/images/garden_landscape.jpg" />
+                        </div>
+                        
+                        <div class="garden-rest-slides fade">
+                            <img class="slides-img" src="resources/images/shisha.jpg" />
+                        </div>
+                        
+                        <div class="garden-rest-slides fade">
+                            <img class="slides-img" src="resources/images/hotel_back_landscape.jpg" />
+                        </div>
+                        
+                        <div class="garden-rest-slides fade">
+                            <img class="slides-img" src="resources/images/hotel_rear.jpg" />
+                        </div>
+                        
+                        <div class="garden-rest-slides fade">
+                            <img class="slides-img" src="resources/images/orange-juice-landscape.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,3)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,3)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="inner-container rooms-site">
+                <div class="room-types side-nav">
+                    <h2 class="h2-headings">ENJOY THE GAME AT</h2>
+                    <h2 class="h2-info">FRESH DELIGHTS</h2>
+                    
+                    <p class="p-info">Come along with your friends and family to benefit from our outside tent. Enjoy a selection of saj, pizzas, burgers, shawarma, fresh juices and shisha. Catch the game on our flatscreen TVs or feel free to play tables, chess and cards.</p>
+                </div>
+                
+                <div class="rooms-slideshow-container">
+                    <div id="fresh-rest" class="room-slides">
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/garden_tent_landscape.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/Fresh_landscape.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/fresh_tables.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/pizza.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/shawarma1.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/saj.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/fresh_garden.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/fresh_garden2.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/fresh_garden3.JPG" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/fresh_garden4.JPG" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/tea-garden.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/coal.jpg" />
+                        </div>
+                        
+                        <div class="fresh-rest-slides fade">
+                            <img class="slides-img" src="resources/images/shisha_day_edit.jpg" />
+                        </div>
+                        
+                        <a class="prev prev-next" onclick="plusSlides(-1,4)">&#10094;</a>
+                        <a class="next prev-next" onclick="plusSlides(1,4)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <address>Al Sayedah Zeinab Hotel<br/>P.O. Box 684<br/>Damascus<br/>Syria</address>
+                
+                <span><strong>Tel: </strong>+963 11 6470140 / 6470139</span>
+                <span><strong>Fax: </strong>+963 11 6470131</span>
+                <br/><br/>
+                <span>&copy; Al Sayedah Zeinab Hotel 2018</span>
+            </div>
+        </footer>
+        
+        <script src="resources/js/navbar.js"></script>
+        <script src="resources/js/dining.js"></script>
+    </body>
+</html>
