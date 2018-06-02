@@ -1000,3 +1000,23 @@ span strong {
 .lounge-rest-slides, .yamama-rest-slides, .shebstan-rest-slides, .garden-rest-slides, .fresh-rest-slides {
     display: none;
 }
+
+/*
+
+    MEETINGS & EVENTS - SITE
+
+*/
+
+.events-cover {
+    background-image: url(../images/banquet-different.jpg);
+    background-position: center;
+    padding-top: 4rem;
+}
+
+.sidal-sidra-slides, .taiba-slides, .yamama-events-slides, .shebstan-events-slides, .garden-events-slides {
+    display: none;
+}
+
+.event-rooms .facilities-list{
+    flex-wrap: wrap;
+}
