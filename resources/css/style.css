@@ -1020,3 +1020,446 @@ span strong {
 .event-rooms .facilities-list{
     flex-wrap: wrap;
 }
+
+/*
+
+    GALLERY - SITE
+
+*/
+
+.gallery {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.gallery .h2-headings {
+    margin-left: 1.75rem;
+    padding-bottom: 1.5rem;
+}
+
+.gallery-nav {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.gallery-nav .inner-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery-pics {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gal-nav-box, .gallery-img {
+    margin: 1%;
+    width: 48%;
+/*    height: 5rem;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.gal-nav-img {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 0.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hotel-img {
+    background-image: url(../images/hotel_front_day_edit.jpg);
+}
+
+.rooms-img {
+    background-image: url(../images/standard_room_landscape.jpg);
+}
+
+.dining-img {
+    background-image: url(../images/blur-breakfast-catering-306059.jpg);
+}
+
+.events-img {
+    background-image: url(../images/sidra2.jpg);
+}
+
+.gallery-img {
+    height: 10rem;
+}
+
+.hotel-bg1 {
+    background-image: url(../images/hotel_front_day_edit.jpg);
+}
+
+.hotel-bg2 {
+    background-image: url(../images/hotel_front.JPG);
+}
+
+.hotel-bg3 {
+    background-image: url(../images/hotel_side_landscape.jpg);
+}
+
+.hotel-bg4 {
+    background-image: url(../images/hotel_back_landscape.jpg);
+}
+
+.hotel-bg5 {
+    background-image: url(../images/lounge_large_edit2.jpg);
+}
+
+.hotel-bg6 {
+    background-image: url(../images/fresh_garden4.JPG);
+}
+
+.hotel-bg7 {
+    background-image: url(../images/zeinab_shrine.JPG);
+}
+
+.room-bg1 {
+    background-image: url(../images/standard_room.JPG);
+}
+
+.room-bg2 {
+    background-image: url(../images/queen.jpg);
+}
+
+.room-bg3 {
+    background-image: url(../images/junior_suite_lounge.jpg);
+}
+
+.room-bg4 {
+    background-image: url(../images/presidential_lounge.JPG);
+}
+
+.room-bg5 {
+    background-image: url(../images/presidential_bed1.JPG);
+}
+
+.room-bg6 {
+    background-image: url(../images/presidential_bed2.JPG);
+}
+
+.room-bg7 {
+    background-image: url(../images/bathroom.jpg);
+}
+
+.dining-bg1 {
+    background-image: url(../images/restaurant.JPG);
+}
+
+.dining-bg1 {
+    background-image: url(../images/restaurant.JPG);
+}
+
+.dining-bg2 {
+    background-image: url(../images/yamama_buffet_edit.jpg);
+}
+
+.dining-bg3 {
+    background-image: url(../images/yamama_buffet2_edit.jpg);
+}
+
+.dining-bg4 {
+    background-image: url(../images/yamama_buffet3_edit.jpg);
+}
+
+.dining-bg5 {
+    background-image: url(../images/SAFIR%20BHAMDOUN6.jpg);
+}
+
+.dining-bg6 {
+    background-image: url(../images/shebstan.JPG);
+}
+
+.dining-bg7 {
+    background-image: url(../images/taboon.jpg);
+}
+
+.dining-bg8 {
+    background-image: url(../images/iran-kebab1.jpg);
+}
+
+.dining-bg9 {
+    background-image: url(../images/biryani.jpg);
+}
+
+.dining-bg10 {
+    background-image: url(../images/mezze_edit.jpg);
+}
+
+.dining-bg11 {
+    background-image: url(../images/lobby_landscape.jpg);
+}
+
+.dining-bg12 {
+    background-image: url(../images/lounge_large_edit2.jpg);
+}
+
+.dining-bg13 {
+    background-image: url(../images/shawarma.jpg);
+}
+
+.dining-bg14 {
+    background-image: url(../images/garden.JPG);
+}
+
+.dining-bg15 {
+    background-image: url(../images/garden_2.JPG);
+}
+
+.dining-bg16 {
+    background-image: url(../images/garden_tent.JPG);
+}
+
+.dining-bg17 {
+    background-image: url(../images/fresh_tables.jpg);
+}
+
+.dining-bg18 {
+    background-image: url(../images/buffet_lunch.jpg);
+}
+
+.dining-bg19 {
+    background-image: url(../images/buffet_lunch2.jpg);
+}
+
+.dining-bg20 {
+    background-image: url(../images/buffet_lasagne.jpg);
+}
+
+.dining-bg21 {
+    background-image: url(../images/buffet_pastries.jpg);
+}
+
+.dining-bg22 {
+    background-image: url(../images/buffet_tea_coffee.jpg);
+}
+
+.dining-bg23 {
+    background-image: url(../images/buffet_dessert.jpg);
+}
+
+.dining-bg24 {
+    background-image: url(../images/buffet_dessert2.jpg);
+}
+
+.dining-bg25 {
+    background-image: url(../images/mix-grill.jpg);
+}
+
+.dining-bg26 {
+    background-image: url(../images/pizza.jpg);
+}
+
+.dining-bg27 {
+    background-image: url(../images/saj.jpg);
+}
+
+.dining-bg28 {
+    background-image: url(../images/tea-garden.jpg);
+}
+
+.dining-bg29 {
+    background-image: url(../images/orange-juice-410325_1920.jpg);
+}
+
+.dining-bg30 {
+    background-image: url(../images/coal.jpg);
+}
+
+.dining-bg31 {
+    background-image: url(../images/shisha_day.jpg);
+}
+
+.dining-bg32 {
+    background-image: url(../images/shisha_coal.jpg);
+}
+
+.events-bg1 {
+    background-image: url(../images/Sidal-Pic1.gif);
+}
+
+.events-bg2 {
+    background-image: url(../images/sidra.jpg);
+}
+
+.events-bg3 {
+    background-image: url(../images/sidra2.jpg);
+}
+
+.events-bg4 {
+    background-image: url(../images/conference.JPG);
+}
+
+.events-bg5 {
+    background-image: url(../images/conference_room.JPG);
+}
+
+.events-bg6 {
+    background-image: url(../images/wedding.JPG);
+}
+
+.events-bg7 {
+    background-image: url(../images/wedding3_landscape.jpg);
+}
+
+.events-bg8 {
+    background-image: url(../images/wedding5_landscape.jpg);
+}
+
+.events-bg9 {
+    background-image: url(../images/wedding-table-decoration.jpg);
+}
+
+.events-bg10 {
+    background-image: url(../images/adult-band-crowd-348517.jpg);
+}
+
+.events-bg11 {
+    background-image: url(../images/restaurant.JPG);
+}
+
+.events-bg12 {
+    background-image: url(../images/beautiful-blur-bouquet-1123254.jpg);
+}
+
+.events-bg13 {
+    background-image: url(../images/blur-close-up-cutlery-735869.jpg);
+}
+
+.events-bg14 {
+    background-image: url(../images/shebstan.JPG);
+}
+
+.events-bg15 {
+    background-image: url(../images/banquet-catering-celebration-265903.jpg);
+}
+
+.events-bg16 {
+    background-image: url(../images/christmas-cutlery-dinner-6305.jpg);
+}
+
+.events-bg17 {
+    background-image: url(../images/garden_2.JPG);
+}
+
+.events-bg18 {
+    background-image: url(../images/bright-celebrate-celebration-266462.jpg);
+}
+
+.events-bg19 {
+    background-image: url(../images/blur-macaroons-burnt-754200.jpg);
+}
+
+.events-bg20 {
+    background-image: url(../images/adult-beard-burnt-1097563.jpg);
+}
+
+.hotel-gallery-slides, .room-gallery-slides, .dining-gallery-slides, .events-gallery-slides, .gallery-section-slides, .gallery-section-large-slides {
+/*    display: none;*/
+}
+
+.gallery-slides-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(220,221,222,0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    opacity: 0;*/
+}
+
+.no-display {
+    display: none;
+}
+
+.gallery-slides-container .rooms-slideshow-container {
+    width: 95%;
+    position: relative;
+}
+
+/*
+.gallery-section-large-slides {
+    display: none;
+}
+*/
+
+#close-hotel-gal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+    font-size: 2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+    .gal-nav-img {
+        height: 7.5rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .gallery-img {
+        width: 31%;
+        height: 13.5rem;
+    }
+    
+    .gal-nav-box {
+        width: 23%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .gallery-slides-container .rooms-slideshow-container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .gallery-slides-container .rooms-slideshow-container {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 909px) {
+    .gallery-img {
+        width: 23%;
+        height: 17rem;
+    }
+    
+    .gal-nav-img {
+        height: 7.5rem;
+    }
+    
+    .gallery-slides-container .rooms-slideshow-container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .gallery-slides-container .rooms-slideshow-container {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1035px) {
+    .gallery-slides-container .rooms-slideshow-container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .gallery-slides-container .rooms-slideshow-container {
+        width: 65%;
+    }
+}
