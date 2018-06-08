@@ -315,7 +315,8 @@ a {
 /* ROOMS */
 
 .container {
-    margin: 2.5rem 0.8rem 4rem 0.8rem;
+    margin: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 .h2-headings {
@@ -361,11 +362,6 @@ a {
     .side-nav ul li {
         padding: 0 0.8rem 2rem 0;
     }
-}
-
-@media screen and (min-width: 600px) {
-    .container {
-        margin: 2.5rem 2.5rem 4rem 2.5rem;
 }
 
 @media screen and (min-width: 628px) {
