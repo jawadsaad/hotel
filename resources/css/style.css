@@ -1463,3 +1463,33 @@ span strong {
         width: 65%;
     }
 }
+
+/*
+
+    CONTACT - SITE
+
+*/
+
+.contact-cover {
+    background-image: url(../images/cable-call-communication-33999.jpg);
+    height: 26rem;
+    padding-top: 4rem;
+    background-position: center;
+}
+
+.about address {
+    font-size: 2rem;
+}
+
+.contact-details {
+    font-size: 2rem;
+}
+
+.contact-details strong {
+    font-weight: 600;
+}
+
+.contact-details a {
+    color: inherit;
+    text-decoration: underline;
+}
